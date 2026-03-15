@@ -11,7 +11,7 @@ public class B07_SwapNumbers {
         System.out.println("Before swap: a = " + a + ", b = " + b);
 
         // Swap using a temporary variable
-        int temp = a;
+        int temp = a;// store the value of a in temp 
         a = b;
         b = temp;
 
